@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="Ex1.js"></script>
+</head>
+<body>
+<form name='registration' onsubmit="fun1();">
+<table>
+<tr><td>UserId</td><td><input type="number" name="userid"></td></tr>
+<tr><td>userName</td><td><input type="text" name="username"></td></tr>
+<tr><td>password</td><td><input type="password" name="password"></td></tr>
+<tr><td>Email</td><td><input type="email" name="email"></td></tr>
+<tr><td>address</td><td><input type="text" name="address"></td></tr>
+<tr><td>Gender</td>
+<td><input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender"  value="female"> Female
+  <input type="radio" name="gender"  value="other"> Other</td></tr>
+<tr><td>Country</td>
+<td> <select name="country">
+<option>choose</option>
+<option>india</option>
+<option>australia</option>
+<option>south africa</option>
+<option>america</option>
+<option>china</option>
+<option>other</option>
+</select>
+</td>
+</tr>
+<tr><td>Zip Code</td><td><input type="text" name="zipcode"></td></tr>
+<tr><td>Language</td>
+<td> <select name="language">
+<option>choose</option>
+<option>English</option>
+<option>Hindi</option>
+<option>Telugu</option>
+<option>kannada</option>
+<option>French</option>
+<option>other</option>
+</select>
+</td>
+</tr>
+<tr><td>about</td>
+<td><textarea  name="about" rows="3" columns="15" ></textarea></td></tr>
+
+
+
+<tr><td><input type="submit" value="submit"></td>
+<td><input type="reset" value="reset"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
